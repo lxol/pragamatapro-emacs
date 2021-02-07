@@ -1,3 +1,9 @@
+;;; pragmatapro-emacs.el --- pragmatapro helpers
+
+;;; Commentary:
+
+;;; Code:
+
 (setq prettify-symbols-unprettify-at-point 'right-edge)
 
 (defconst pragmatapro-prettify-symbols-alist
@@ -276,3 +282,5 @@
 (defun pragmatapro-prettify-hook ()
   (add-pragmatapro-prettify-symbols-alist)
   (setup-compose-predicate))
+
+;;; pragmatapro-emacs.el ends here
