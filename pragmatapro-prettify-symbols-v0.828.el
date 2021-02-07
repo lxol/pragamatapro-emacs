@@ -273,6 +273,6 @@
                      (nth 3 (syntax-ppss))))))))
 
 ;; main hook fn, just add to text-mode/prog-mode
-(defun prettify-hook ()
+(defun pragmatapro-prettify-hook ()
   (add-pragmatapro-prettify-symbols-alist)
   (setup-compose-predicate))
