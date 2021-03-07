@@ -283,4 +283,5 @@
   (add-pragmatapro-prettify-symbols-alist)
   (setup-compose-predicate))
 
+(provide 'pragmatapro-emacs)
 ;;; pragmatapro-emacs.el ends here
